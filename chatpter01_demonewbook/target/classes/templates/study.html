@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Study</title>
+</head>
+<body>
+        <table>
+            <tr>
+                <th>姓名</th>
+                <td th:text="${userList}"></td>
+            </tr>
+            <tr th:each = "user : ${userList}">
+                <td>123</td>
+                <td th:text="${user}">2</td>
+                <td>456</td>
+            </tr>
+
+
+
+        </table>
+<div th:switch="${sex}">
+    <p th:case="1"> girl</p>
+    <p th:case="${man}">man01</p>
+    <p th:case="*">knowno</p>
+</div>
+
+<div th:text="${decs}"></div>
+
+<div th:object="${session.user}">
+    <p>
+        姓名：<span th:text="*{name}">xxx</span>
+    </p>
+    <p>
+        性别:<span th:text="*{age == 1 ? 'girl':'man'}">xxxx</span>
+    </p>
+</div>
+</body>
+</html>

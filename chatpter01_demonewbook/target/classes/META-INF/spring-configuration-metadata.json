@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "emp",
+      "type": "com.spring.chatpter01_demonewbook.Emp",
+      "sourceType": "com.spring.chatpter01_demonewbook.Emp"
+    }
+  ],
+  "properties": [
+    {
+      "name": "emp.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.spring.chatpter01_demonewbook.Emp"
+    },
+    {
+      "name": "emp.lastname",
+      "type": "java.lang.String",
+      "sourceType": "com.spring.chatpter01_demonewbook.Emp"
+    },
+    {
+      "name": "emp.salary",
+      "type": "java.lang.Double",
+      "sourceType": "com.spring.chatpter01_demonewbook.Emp"
+    }
+  ],
+  "hints": []
+}
