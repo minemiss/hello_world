@@ -1,0 +1,8 @@
+com\springboot\mybatis\domain\User.class
+com\springboot\mybatis\Service\MybatisUserService.class
+com\springboot\mybatis\dao\MyBatisUserDao.class
+com\springboot\mybatis\Service\MyBatisUserServiceImpl.class
+com\springboot\mybatis\MybatisApplication.class
+com\springboot\mybatis\Controller.class
+com\springboot\mybatis\domain\SexEnum.class
+com\springboot\mybatis\domain\SexTypeHandler.class
